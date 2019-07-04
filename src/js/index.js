@@ -1,5 +1,6 @@
 require('../css/style.css');
 
+
 (function(){
     console.log("Hello")
     document.write('222')

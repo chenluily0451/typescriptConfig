@@ -6,6 +6,7 @@ const webpack = require('webpack');
 module.exports = {
     entry : {
        app:'./src/index.js',
+       jquery:'./src/index.js',
     },
     devtool:'inline-source-map', // 如果打包文件出错，可定位错误位置
     devServer : {
